@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(4, 132, 165)
+    background: linear-gradient(0deg, rgb(0, 71, 148), rgb(255, 255, 255));
 }
 
 header{}
@@ -14,7 +14,7 @@ header nav ul{}
 
 header nav ul li{}
 
-header nav ul li a
+header nav ul li a{}
 
 main{}
 
