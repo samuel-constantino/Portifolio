@@ -1,41 +1,39 @@
-.elementos-maiores{
-    font-size: 21px;
+body {
+    background: linear-gradient(0deg, rgb(0, 71, 148), rgb(255, 255, 255));
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
 }
 
-body{
-    background-color: rgb(4, 132, 165)
-}
+header {}
 
-header{}
+header nav {}
 
-header nav{}
+header nav ul {}
 
-header nav ul{}
+header nav ul li {}
 
-header nav ul li{}
+header nav ul li a {}
 
-header nav ul li a
+main {}
 
-main{}
-
-main h1{
+main h1 {
     font-family: sans-serif;
 }
 
-main img{}
+main img {}
 
-main p{
-    font-family: monospace;        
+main p {
+    font-family: monospace;
 }
 
-main h2{}
+main h2 {}
 
-main h3{}
+main h3 {}
 
-main ul{}
+main ul {}
 
-main ul li{}
+main ul li {}
 
-footer{}
+footer {}
 
-footer a{}
+footer a {}
