@@ -4,36 +4,30 @@ body {
     font-size: 16px;
 }
 
-header {}
+header div.container {
+    background-color: #fff;
+    margin: 40px 50px 10px 50px;
+}
 
-header nav {}
+header div.container img.coluna-esquerda {
+    margin: 30px 0px 30px 100px;
+    border-radius: 50%;
+    width: 300px;
+}
 
-header nav ul {}
-
-header nav ul li {}
-
-header nav ul li a {}
-
-main {}
+header div.coluna-direita {
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    left: 560px;
+}
 
 main h1 {
     font-family: sans-serif;
+    padding-top: 70px;
+    display: inline-block;
 }
-
-main img {}
 
 main p {
     font-family: monospace;
 }
-
-main h2 {}
-
-main h3 {}
-
-main ul {}
-
-main ul li {}
-
-footer {}
-
-footer a {}
