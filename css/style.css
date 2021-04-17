@@ -4,9 +4,9 @@ body {
     font-size: 16px;
 }
 
-header div.container {
+div.container {
     background-color: #fff;
-    margin: 40px 50px 10px 50px;
+    margin: 30px 50px 10px 50px;
 }
 
 header div.container img.coluna-esquerda {
@@ -22,12 +22,15 @@ header div.coluna-direita {
     left: 560px;
 }
 
-main h1 {
-    font-family: sans-serif;
-    padding-top: 70px;
+main div.container div {
     display: inline-block;
+    min-width: 49%;
+    vertical-align: text-top;
+    text-align: center;
 }
 
-main p {
-    font-family: monospace;
+main div.container div ul {
+    list-style: none;
+    line-height: 30px;
+    margin-right: 40px;
 }
