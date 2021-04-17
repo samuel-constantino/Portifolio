@@ -8,14 +8,20 @@ header {}
 
 header nav {}
 
-header nav ul {}
+header nav ul {
+    position: fixed;
+    min-width: 100%;
+    text-align: center;
+}
 
 header nav ul li {
     list-style: none;
+    display: inline-block;
 }
 
 header nav ul li a {
     text-decoration: none;
+    text-align: center;
     color: #000;
     line-height: 30px;
     background-color: rgb(255, 255, 255);
@@ -23,13 +29,15 @@ header nav ul li a {
     font-weight: 500;
 }
 
+header img {}
+
 main {}
 
 main h1 {
     font-family: sans-serif;
+    padding-top: 70px;
+    display: inline-block;
 }
-
-main img {}
 
 main p {
     font-family: monospace;
