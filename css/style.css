@@ -22,15 +22,20 @@ header div.coluna-direita {
     left: 560px;
 }
 
-main div.container div {
+div.container div {
     display: inline-block;
     min-width: 49%;
     vertical-align: text-top;
     text-align: center;
 }
 
-main div.container div ul {
+div.container div ul {
     list-style: none;
     line-height: 30px;
     margin-right: 40px;
+}
+
+div.container div.coluna-direita a {
+    display: inline-block;
+    padding: 0 20px 0 20px;
 }
