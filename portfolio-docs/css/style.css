@@ -4,38 +4,7 @@ body {
     font-size: 16px;
 }
 
-div.container {
-    background-color: #fff;
-    margin: 30px 50px 10px 50px;
-}
-
-header div.container img.coluna-esquerda {
-    margin: 30px 0px 30px 100px;
-    border-radius: 50%;
-    width: 300px;
-}
-
-header div.coluna-direita {
-    position: absolute;
-    width: 50%;
-    top: 100px;
-    left: 560px;
-}
-
-div.container div {
-    display: inline-block;
-    min-width: 49%;
-    vertical-align: text-top;
-    text-align: center;
-}
-
-div.container div ul {
-    list-style: none;
-    line-height: 30px;
-    margin-right: 40px;
-}
-
-div.container div.coluna-direita a {
-    display: inline-block;
-    padding: 0 20px 0 20px;
+header {
+    background-color: rgb(110, 110, 218);
+    height: 200px;
 }
