@@ -1,134 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifólio</title>
+  <title>Document</title>
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./portfolio-docs/css/style.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
   <header>
-    
+    <a href="#">
+      <img src="./imgs/logo.png" alt="">
+    </a>
+    <div classe='titulo'>
+      <h1>Trybe Chess Club - Blog</h1>
+    </div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#sobre">Sobre</a>
+      <!-- hall da fama será uma pagina indicando o atual 'melhor jogador de xadrez da trybe' e os anteriores -->
+      <a href="#hall-da-fama">Hall da Fama</a>
+    </nav>
+
   </header>
-
   <main>
+    <div class='frase'>
+      <p>
+        <b>Frases do Club:</b> <em id='frases-do-club'></em>
+      </p>
+    </div>
+    <section id='secao-de-noticias'>
+      <div>
+        <h1>Torneio de Abertura #1</h1>
 
-    <div class="container">
+        <section class='classificacao-do-torneio'>
+          <p>descrição do torneio</p>
+          <h3>Classificação</h3>
+          <div>
+            <img src="./imgs/classificacao1.png" alt="primeiros-3-colocados">
+            <p>sikT - <a href="">Rafael Janovicci - Turma 13 - Tribo A</a></p>
+            <p>Someji - <a href="">Eduardo Mak - Turma 13 - Tribo A</a></p>
+            <p>MegaBlaster - <a href="">Caio Oliveira - Turma 10</a></p>
+          </div>
+          <h4>primeiros colocados</h4>
+          <img src="./imgs/primeiros-10-colocados.png" alt="">
+          <p>Parabéns a todos os participantes!</p>
+        </section>
 
-      <img class="coluna-esquerda" src="./portfolio-docs/img/samuel-foto2.jpeg" alt="Foto Samuel" width="200px">
+        <section class='secao-de-fotos'>
+          <h3>Momentos Soft Skills</h3>
+          <section id='momentos-soft-skills'>
+            <img src="./imgs/chat/chat1.png" alt="chat 1">
+            <img src="./imgs/chat/chat2.png" alt="chat 2">
+            <img src="./imgs/chat/chat3.png" alt="chat 3">
+            <img src="./imgs/chat/chat4.png" alt="chat 4">
+            <img src="./imgs/chat/chat5.png" alt="chat 5">
+            <img src="./imgs/chat/chat6.png" alt="chat 6">
+            <img src="./imgs/chat/chat7.png" alt="chat 7">
+            <img src="./imgs/chat/chat8.png" alt="chat 8">
+            <img src="./imgs/chat/chat9.png" alt="chat 9">
+            <img src="./imgs/chat/chat10.png" alt="chat 10">
+            <img src="./imgs/chat11.png" alt="chat 11">
+          </section>
 
-      <div class="coluna-direita">
-        <h1>
-          Samuel Constantino de Oliveira Junior
-        </h1>
+          <h3>Dados do Torneio</h3>
+          <section id='dados-do-torneio'>
+            <img src="./imgs/dados-do-torneio.png" alt="">
+          </section>
 
-        <div class="descricao">
-          <p id="profissao">Estudante de Desenvolvimento de Web na Trybe</p>
-
-          <p id="descricao-texto">Fascinado pelo mundo da tecnologia/programação. Estudante de Desenvolvimento
-            Web na Trybe. Tenho interesses na área de desenvolvimento de sitemas web, embarcados e mobile.
-            Meu objetivo é domitar todas etapas de desenvolvimento de um
-            sistema robusto e seguro. Minha maior motivação sempre será a busca contínua pelo conhecimento.
-          </p>
+        </section>
+        <div>
+          <img src="" alt="">
         </div>
-
       </div>
-
-    </div>
-
-    <div class="container">
-
-      <div class="coluna-esquerda">
-
-        <h2>Hard Skills</h2>
-        <ul>
-          <li class="">Git e GitHub</li>
-          <li>HTML 5</li>
-          <li>CSS 3</li>
-        </ul>
-
-      </div>
-
-      <div class="coluna-direita">
-
-        <h2>Soft Skills</h2>
-        <ul>
-          <li>Liderança</li>
-
-          <li>Pensamento Crítico</li>
-
-          <li>Criatividade</li>
-
-          <li>Inteligência Emocional</li>
-
-          <li>Comunicação</li>
-
-          <li>Colaboração</li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
+    </section>
   </main>
 
-  <footer>
-
-    <div class="container">
-
-      <div class="coluna-esquerda">
-        <h2>Endereço</h2>
-        <ul class="endereco">
-
-          <li>
-            <strong>Email: </strong>
-            <a href="mailto:samuelicapuidados@gmail.com">samuelicapuidados@gmail.com</a>
-          </li>
-
-          <li>
-            <strong>Telefone: </strong>
-            <a href="tel:+55 (88) 9 8172-2281">(88) 9 8172-2281</a>
-          </li>
-
-          <li>
-            <strong>Endereço: </strong>
-            <a href="https://www.google.com.br/maps/place/BonaVita/@-4.7140331,-37.3557112,20.18z/data=!4m5!3m4!1s0x7b9d9438c532d5f:0x499f9577d1717ffd!8m2!3d-4.7140615!4d-37.3556627"
-              target="_blank">Rua Maria de Dey, 950, Centro - Icapuí-CE</a>
-          </li>
-
-        </ul>
-      </div>
-
-      <div class="coluna-direita">
-        <h2>Redes Sociais</h2>
-
-        <div class="redes-sociais">
-
-          <a href="https://www.linkedin.com/in/samuel-constantino" target="_blank">
-            <img src="./portfolio-docs/img/linkedin.png" alt="Foto-Linkedin" width="50px">
-            <p>Linkedin</p>
-          </a>
-
-          <a href="https://github.com/samuel-constantino" target="_blank">
-            <img src="./portfolio-docs/img/github-big-logo.png" alt="Foto-GitHub" width="50px">
-            <p>Github</p>
-          </a>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </footer>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
